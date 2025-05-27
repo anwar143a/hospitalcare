@@ -1,0 +1,32 @@
+.upcoming-schedule {
+  background-color: #f9fafe;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.upcoming-schedule h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.schedule-day {
+  margin-bottom: 16px;
+}
+
+.schedule-day h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.appointment-card {
+  background-color: #dde2ff;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+

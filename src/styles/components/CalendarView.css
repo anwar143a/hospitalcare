@@ -1,0 +1,61 @@
+.calendar-view {
+  background-color: #f9fafe;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-view h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.calendar-day {
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #4f4f4f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.calendar-date {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.appointment {
+  background-color: #eef1fd;
+  border-radius: 16px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.appointment.dentist {
+  background-color: #4a51ff;
+  color: white;
+}
+
+.appointment.physio {
+  background-color: #dde2ff;
+}
+

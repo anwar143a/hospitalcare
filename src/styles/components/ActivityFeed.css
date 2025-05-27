@@ -1,0 +1,67 @@
+.activity-feed {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.activity-feed .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-feed h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.activity-feed .summary {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.chart {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  height: 100px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 6px;
+}
+
+.bar.blue {
+  background-color: #2fc1ff;
+}
+
+.bar.purple {
+  background-color: #8a6df1;
+}
+
+.day {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+
+

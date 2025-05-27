@@ -1,0 +1,16 @@
+.header {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right > * {
+  margin-left: 20px;
+}

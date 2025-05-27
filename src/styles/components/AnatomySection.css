@@ -1,0 +1,25 @@
+.anatomy-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.anatomy-image {
+  position: relative;
+}
+
+.anatomy-image img {
+  width: 100%;
+  display: block;
+}
+
+.anatomy-label {
+  background-color: rgba(0, 123, 255, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
